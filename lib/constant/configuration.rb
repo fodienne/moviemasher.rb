@@ -34,6 +34,8 @@ module MovieMasher
 			:render_directory => 'Path to directory where jobs are built.',
 			:render_save => 'Boolean indicating whether or not jobs should be removed after processing.',
 			:verbose => 'How much detail to include in logs. One of debug, info, warn or error.',
+			:aws_access_key_id => 'Key ID',
+			:aws_secret_access_key => 'Secret Key',
 		}
 		Inputs = {
 			:download_bytes => 'num',
